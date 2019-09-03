@@ -1,0 +1,14 @@
+#header {
+    background-color:yellow;
+    color:brown;
+    text-align:center;
+    font-family:'Bernard MT';
+    padding:5px;
+}
+#navlinks{
+    line-height:30px;
+    background-color:gold;
+    height:750px;
+    width:150px;
+    float:left;
+}

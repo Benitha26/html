@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+    <script type = "text/javascript">
+        function PlayVideo() {
+           var v = document.getElementsByTagName("video")[0];  
+           v.play(); 
+        }
+     </script>
+</head>
+<body>
+    <video width="320" height="240" controls>
+        <source src="movie.mp4"  type="video/mp4">
+            <source src="movie.ogg"  type="video/ogg">
+                your browser doesn't support the video tag.
+
+                <form>         
+                    <video width = "350" height = "250" src = "foo.mp4">
+                    Your browser does not support the video element.
+                    </video>
+                    <br />
+                    <input type = "button" onclick = "PlayVideo();" value = "Play"/>
+                 </form>
+                 
+    </video>
+</body>
+</html>
